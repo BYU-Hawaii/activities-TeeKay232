@@ -11,7 +11,7 @@ header{
     text-align:center;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -19,11 +19,11 @@ ul {
     background-color: #333;
   }
   
-  li {
+  nav li {
     float: left;
   }
   
-  li a {
+  nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -31,6 +31,42 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
+  nav li a:hover {
     background-color: #111;
+  }
+
+  section h3{
+    text-align:center;
+  }
+
+  section p{
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left:25%;
+    margin-right:25%;
+    margin-bottom:25px;
+  }
+
+  section h2{
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:900;
+  }
+
+  section ul{
+    list-style-image:url(../images/flag\ \(1\).png);
+    text-align:center;
+    list-style-position: inside;
+  }
+  
+  
+
+  section li h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  footer h4{
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
   }
