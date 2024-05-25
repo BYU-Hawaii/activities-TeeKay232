@@ -34,27 +34,50 @@ ul li a:hover{
     background-color:aqua;
 }
 
-#column{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
 .container{
-    flex: 1 1 auto;
+    display:flex;
+    flex-direction:row;
     margin: 10px;
     padding: 10px;
     background-color: rgb(92, 161, 247);
     border: 1px solid rgb(92, 161, 247);
+    border-radius:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 
 h3{
     text-align:center;
     padding:10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#picture{
-    border-radius: 5px 5px 5px 5px darkslateblue;
+.bird{
+    float:left;
+    border:5px dotted white;
+    border-radius:20px;
+    
 }
+
+.info{
+    display:flex;
+    text-align:justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left:15px;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    margin: 10px;
+    background-color: rgb(92, 161, 247);
+    border: 1px solid rgb(92, 161, 247);
+    border-radius:20px;
+}
+
+footer h2{
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
