@@ -1,5 +1,5 @@
 body{
-    background-color: darkorchid;
+    background-color: lightblue;
 }
 
 h1{
@@ -19,7 +19,7 @@ ul li{
     float:none;
     border: 5px dotted white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-shadow: 5px 5px 5px 5px darkblue;
+    box-shadow: 5px 5px 5px 5px darkslateblue;
     padding:12px;
     
     
@@ -32,4 +32,29 @@ ul li a{
 
 ul li a:hover{
     background-color:aqua;
+}
+
+#column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.container{
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(92, 161, 247);
+    border: 1px solid rgb(92, 161, 247);
+}
+
+h3{
+    text-align:center;
+    padding:10px;
+}
+#picture{
+    border-radius: 5px 5px 5px 5px darkslateblue;
 }
