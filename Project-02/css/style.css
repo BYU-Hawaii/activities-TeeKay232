@@ -1,0 +1,126 @@
+body{
+    background-image:url("../images/new-zealand-2196313_1920.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:900;
+    color:white;
+}
+header{
+    text-align:center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 15px;
+    text-align:center;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+    border-radius:15px;
+  }
+
+  section h3{
+    text-align:center;
+  }
+
+  section p{
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left:25%;
+    margin-right:25%;
+    margin-bottom:25px;
+  }
+
+  section h2{
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:900;
+  }
+
+  section ul{
+    list-style-image:url(../images/flag\ \(1\).png);
+    text-align:center;
+    list-style-position: inside;
+  }
+  
+  section li h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  figure{
+    text-align:center;
+    width:80%;
+    margin:5% auto;
+  }
+
+  figure img{
+    border:15px solid white;
+    border-radius:15px;
+    box-shadow: 5px 5px 5px #2E2E2E;
+    width:100%;
+  }
+
+  figcaption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    background-color: #333;
+    margin:0 auto;
+    border-radius:12px;
+    text-align:center;
+    padding:10px;
+    width:100%;
+  }
+
+  footer{
+    position:static;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color:#333;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+  }
+
+  footer h4{
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    padding:8px;
+
+
+  }
+
+  @media (min-width: 768px){
+      body{
+        font-size:large;
+      }
+
+      figure{
+        width:30%;
+      }
+
+      
+  }
+
