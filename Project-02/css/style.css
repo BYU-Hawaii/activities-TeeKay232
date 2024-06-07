@@ -24,20 +24,21 @@ nav ul {
   }
   
   nav li {
-    float: left;
+    
   }
   
   nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding:0.5%;
     text-decoration: none;
   }
   
   nav li a:hover {
     background-color: #111;
-    border-radius:15px;
+    border-radius:10px;
+
   }
 
   section h3{
@@ -68,6 +69,11 @@ nav ul {
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
 
+  .container{
+    display:block;
+    
+}
+
   figure{
     text-align:center;
     width:80%;
@@ -80,6 +86,7 @@ nav ul {
     box-shadow: 5px 5px 5px #2E2E2E;
     width:100%;
   }
+
 
   figcaption{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -121,6 +128,30 @@ nav ul {
         width:30%;
       }
 
+      .container{
+        display:flex;
+        flex-direction:row;
+      }
+
+      .container h3{
+        text-align: center;
+      }
+
+      nav li {
+        float: left;
+      }
+
+      nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
       
+      nav li a:hover {
+        background-color: #111;
+        border-radius:15px;
+      }
   }
 
