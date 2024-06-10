@@ -123,7 +123,7 @@ nav ul {
       }
 
       figure{
-        width:30%;
+        width:40%;
       }
 
       .container{
@@ -151,5 +151,13 @@ nav ul {
         background-color: #111;
         border-radius:15px;
       }
+  }
+
+  @media (min-width: 1024px){
+
+    figure{
+      width:30%;
+    }
+
   }
 
