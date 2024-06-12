@@ -2,16 +2,21 @@ document.getElementById('colorPicker').addEventListener('change', function() {
     let chosenColor = this.value;
     displayColor(chosenColor);
     addToHistory(chosenColor);
+    document.body.style.backgroundColor = (chosenColor);
 });
 
 document.getElementById('randomColor').addEventListener('click', function() {
     let randomColor = getRandomColor();
     displayColor(randomColor);
     addToHistory(randomColor);
+    document.body.style.backgroundColor = (randomColor);
 });
+
 
 function displayColor(color) {
     document.getElementById('displayArea').style.backgroundColor = color;
+    document.getElementById('colorValue').textContent = color;
+    
 }
 
 function addToHistory(color) {
