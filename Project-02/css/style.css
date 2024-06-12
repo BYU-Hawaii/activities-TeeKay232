@@ -187,6 +187,11 @@ nav ul {
         width:40%;
       }
 
+      figure img{
+        width:100%;
+
+      }
+
       .container{
         grid-template-columns: 1fr 1fr;
       }
@@ -227,7 +232,7 @@ nav ul {
   @media (min-width: 1024px){
 
     figure{
-      width:30%;
+      width:40%;
     }
 
     .container{
